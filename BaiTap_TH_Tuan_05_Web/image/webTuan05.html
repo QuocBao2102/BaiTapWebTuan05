@@ -134,6 +134,197 @@
                 padding-left: 10px;
                 padding-right: 10px;
             }
+            
+            .product-buy {
+                display: flex;
+            }
+            
+            .shop-cart {
+                width: 50%;
+                margin-top: -10px;
+                padding-left: 100px;
+                padding-right: 30px;
+            }
+            
+            .buy {
+                margin-top: -50px;
+            }
+            
+            .buy2 {
+                margin-top: 10px;
+            }
+            
+            .buy3 {
+                margin-top: 10px;
+            }
+            
+            #color {
+                border-radius: 5px;
+                width: 430px;
+                height: 50px;
+            }
+            
+            #size {
+                border-radius: 5px;
+                width: 430px;
+                height: 50px;
+            }
+            
+            #quantity {
+                border-radius: 5px;
+                width: 430px;
+                height: 50px;
+            }
+            
+            .buy .monney {
+                float: right;
+                color: rgb(33, 168, 168);
+            }
+            
+            .total {
+                display: flex;
+                justify-content: space-between;
+            }
+            
+            .button {
+                background-color: rgb(12, 165, 165);
+                border: none;
+                color: whitesmoke;
+                padding: 15px 32px;
+                text-align: center;
+                font-size: 18px;
+                width: 430px;
+                height: 50px;
+                border-radius: 5px;
+            }
+            
+            .add {
+                background-color: none;
+                border: 1px solid rgb(12, 165, 165);
+                color: rgb(12, 165, 165);
+                text-align: center;
+                display: inline-block;
+                font-size: 18px;
+                width: 430px;
+                height: 50px;
+                border-radius: 5px;
+                margin-top: 10px;
+            }
+            
+            .add img {
+                padding-right: 8px;
+            }
+            
+            .review {
+                width: 100%;
+                height: auto;
+                align-items: center;
+                display: flex;
+                justify-content: space-between;
+            }
+            
+            .review-rate {
+                display: flex;
+                width: 700%;
+                align-items: center;
+            }
+            
+            .review-rate img {
+                padding-left: 5px;
+                padding-right: 5px;
+            }
+            
+            .review-rate p {
+                padding-left: 5px;
+                padding-right: 5px;
+            }
+            
+            .review .show {
+                width: 60%;
+            }
+            
+            .review-dt-top {
+                justify-content: space-around;
+                display: flex;
+            }
+            
+            .review-dt {
+                display: flex;
+                width: 110%;
+                align-items: center;
+            }
+            
+            .review-dt1 {
+                display: flex;
+                width: 100%;
+                align-items: center;
+            }
+            
+            .review-dt .rate-rv {
+                align-items: center;
+                padding-left: 10px;
+                padding-right: 10px;
+                margin-top: -20px;
+            }
+            
+            .review-dt1 .rate-rv1 {
+                align-items: center;
+                padding-left: 10px;
+                padding-right: 10px;
+                margin-top: -20px;
+            }
+            
+            .review-text {
+                display: flex;
+            }
+            
+            .review-text1 {
+                padding-right: 100px;
+            }
+            
+            .review-text3 {
+                padding-left: 60px;
+            }
+            
+            .relate {
+                width: 100%;
+                height: auto;
+                align-items: center;
+                display: flex;
+                justify-content: space-between;
+                padding-right: 10px;
+            }
+            
+            .product1 {
+                grid-area: menu;
+            }
+            
+            .product2 {
+                grid-area: main;
+            }
+            
+            .product3 {
+                grid-area: right;
+            }
+            
+            .product4 {
+                grid-area: footer;
+            }
+            
+            .grid-container1 {
+                display: grid;
+                grid-template-areas: 'menu main footer  right ' 'menu main footer  right';
+                gap: 30px;
+                background-color: white;
+                padding: 20px 0;
+                font-size: 30px;
+            }
+            
+            .grid-container1>div {
+                background-color: rgba(255, 255, 255, 0.8);
+                text-align: center;
+                font-size: 30px;
+            }
         </style>
 
     </head>
@@ -185,21 +376,142 @@
                     </div>
                     <div class="product">
                         <h2>Product description</h2>
-                        <div class="Pro-info">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem lorem aliquam sed lacinia quis. Nibh dictumst vulputate odio pellentesque sit quis ac, sit ipsum. Sit rhoncus velit in sed massa arcu sit eu. Vitae et vitae eget
-                                lorem non dui. Sollicitudin ut mi adipiscing duis. Convallis in semper laoreet nibh leo. Vivamus malesuada ipsum pulvinar non rutrum risus dui, risus. Purus massa velit iaculis tincidunt tortor, risus, scelerisque risus.
-                                In at lorem pellentesque orci aenean dictum dignissim in. Aenean pulvinar diam interdum ullamcorper. Vel urna, tortor, massa metus purus metus. Maecenas mollis in velit auctor cursus scelerisque eget.
-                            </p>
-                        </div>
-                        <div class="buy">
+                        <div class="product-buy">
+                            <div class="Pro-info">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem lorem aliquam sed lacinia quis. Nibh dictumst vulputate odio pellentesque sit quis ac, sit ipsum. Sit rhoncus velit in sed massa arcu sit eu. Vitae et vitae
+                                    eget lorem non dui. Sollicitudin ut mi adipiscing duis.</p>
+                                <p> Convallis in semper laoreet nibh leo. Vivamus malesuada ipsum pulvinar non rutrum risus dui, risus. Purus massa velit iaculis tincidunt tortor, risus, scelerisque risus. In at lorem pellentesque orci aenean dictum dignissim
+                                    in. Aenean pulvinar diam interdum ullamcorper. Vel urna, tortor, massa metus purus metus. Maecenas mollis in velit auctor cursus scelerisque eget.
+                                </p>
 
+                            </div>
+                            <div class="shop-cart">
+
+                                <div class="buy">
+                                    <div class="monney">
+                                        <h2>$99</h2>
+                                    </div>
+                                    <div class="cart1">
+                                        <select id="color" name="color">
+                                  <option value="color">Color</option>
+                                  <option value="blue">Blue</option>
+                                  <option value="red">Red</option>
+                                </select>
+                                    </div>
+                                </div>
+                                <div class="buy2">
+                                    <div class="cart2">
+                                        <select id="size" name="Size">
+                                  <option value="size">Size</option>
+                                  <option value="size">Size 1</option>
+                                  <option value="size">Size 2</option>
+                                </select>
+                                    </div>
+                                </div>
+                                <div class="buy3">
+                                    <div class="cart3">
+                                        <select id="quantity" name="quantity">
+                                  <option value="quantity">3</option>
+                                </select>
+                                    </div>
+                                </div>
+                                <div class="total">
+                                    <h2>total</h2>
+                                    <h2>$265</h2>
+                                </div>
+                                <div class="button-buy">
+                                    <button class="button">Buy now</button>
+                                </div>
+                                <div class="button-add">
+                                    <button class="add"><img style="width: 30px;" src="Shopping cart simple 1.png" alt=""> Add to cart</button>
+                                </div>
+                            </div>
                         </div>
                     </div>
-
+                    <div class="review">
+                        <div class="review-rate">
+                            <h2>Reviews</h2> <img style="width: 25px;height: 20px;" src="Rating 304.png" alt="">
+                            <h4>4.2D</h4>
+                            <p> (99 reviews)</p>
+                        </div>
+                        <div class="show">
+                            <p>Show all reviews ></p>
+                        </div>
+                    </div>
+                    <div class="review-dt-top">
+                        <div class="review-dt">
+                            <img src="Avatar 753.png" alt="">
+                            <div class="rate-rv">
+                                <h4>Jay Rutherford</h4>
+                                <img style="position: absolute;margin-top: -15px;" src="Rating 301.png" alt="">
+                            </div>
+                            <div class="time">
+                                <p>3d ago</p>
+                            </div>
+                        </div>
+                        <div class="review-dt1">
+                            <img src="Avatar 756.png" alt="">
+                            <div class="rate-rv1">
+                                <h4>Nicole Chung</h4>
+                                <img style="position: absolute;margin-top: -15px;" src="Rating 305.png" alt="">
+                            </div>
+                            <div class="time1">
+                                <p>3d ago</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="review-text">
+                        <div class="review-text1">
+                            <p> Nulla laboris fugiat fugiat minim minim excepteur eiusmod quis. Laborum est minim id cillum nostrud cillum consectetur. </p>
+                        </div>
+                        <div class="review-text2">
+                            <p> Proident ullamco minim quis aliquip eiusmod in deserunt sit aliqua. Adipisicing reprehenderit elit officia occaecat dolor.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="review-dt-top">
+                        <div class="review-dt">
+                            <img src="Avatar 755.png" alt="">
+                            <div class="rate-rv">
+                                <h4>Wei Arnold</h4>
+                                <img style="position: absolute;margin-top: -15px;" src="Rating 303.png" alt="">
+                            </div>
+                            <div class="time">
+                                <p>3d ago</p>
+                            </div>
+                        </div>
+                        <div class="review-dt1">
+                            <img src="Avatar 757.png" alt="">
+                            <div class="rate-rv1">
+                                <h4>Judith Mejia</h4>
+                                <img style="position: absolute;margin-top: -15px;" src="Rating 299.png" alt="">
+                            </div>
+                            <div class="time1">
+                                <p>3d ago</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="review-text">
+                        <div class="review-text1">
+                            <p> Ut commodo quis sit in consequat sit nisi dolor adipisicing officia tempor do duis consequat dolore dolore ipsum. </p>
+                        </div>
+                        <div class="review-text3">
+                            <p> Ad laborum dolor cupidatat culpa mollit non non sunt qui. In ut et aute mollit eiusmod occaecat eiusmod mi. </p>
+                        </div>
+                    </div>
+                    <div class="relate">
+                        <h2>Related products</h2>
+                        <p>See more ></p>
+                    </div>
+                    <div class="grid-container1">
+                        <div class="product1"><img style="width: 100%;height: 100%;" src="Image 1704.png" alt=""></div>
+                        <div class="product2"><img style="width: 100%;height: 100%;" src="Image 1703.png" alt=""></div>
+                        <div class="product3"><img style="width: 100%;height: 100%;" src="Image 1711.png" alt=""></div>
+                        <div class="product4"><img style="width: 100%;height: 100%;" src="Image 1712.png" alt=""></div>
+                    </div>
                 </div>
-
-
             </div>
+        </div>
     </body>
 
     </html>
